@@ -1,0 +1,93 @@
+.intro { 
+    background: url("../img/header.jpeg") no-repeat;
+    background-size: 100%;
+    height:200px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imageoverlay {
+    background-color: rgba(0,0,0,.7);
+    height: 200px;
+    width: 100%;
+    margin: -50px auto;
+    position:relative;
+}
+
+
+.titletext {
+    font-family: Helvetica, sans-serif;
+    color:white;
+    
+}
+
+.projects{
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+    min-height : 450px;
+    background-color: rgba(0,0,0,.1);
+}
+
+
+.projects_spacer {
+    height: 0px;
+}
+.projects_column {
+    
+    padding-top: 20px;
+}
+
+.project-img-container {
+    max-height: 300px;
+    margin: 30px auto 15px;
+    
+}
+
+.source{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.ghicon {
+    vertical-align: middle;
+}
+
+.about-me {
+    width:100%;
+    height:100%;
+    min-height:400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mypic { 
+    margin: 30px auto 30px;
+}
+
+/* Small Devices */
+@media (max-width: 768px) {
+    .titletext {
+        font-size: 20pt;
+        margin: 75px auto;
+    }
+    .mypic {
+        max-height: 140px;
+    }
+}
+
+/*Regular Viewing Devices */
+@media (min-width: 769px) {
+    .titletext {
+                font-size: 45pt;
+                margin: 50px auto;
+        }
+    .projects {
+        padding-top: 50px;
+    }
+    .mypic {
+        max-height:250px;
+    }
+}
