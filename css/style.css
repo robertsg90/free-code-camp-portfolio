@@ -58,7 +58,7 @@
 .about-me {
     width:100%;
     height:100%;
-    min-height:400px;
+    min-height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -67,6 +67,17 @@
     margin: 30px auto 30px;
 }
 
+.contact{
+    background-color: rgba(0,0,0,.1);
+    width: 100%;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inicon {
+    color: #0077B5;
+}
 /* Small Devices */
 @media (max-width: 768px) {
     .titletext {
