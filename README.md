@@ -2,7 +2,7 @@
 My Portfoilo Page
 I completed this as part of my work through free code camp @ http://freecodecamp.com
 
-You can view the completed project here: https://robertsg90.github.io/portfolio/
+You can view the completed project here: https://robertsg90.github.io/free-code-camp-portfolio/
 
 I should be updating it as I keep doing stuff.
 
